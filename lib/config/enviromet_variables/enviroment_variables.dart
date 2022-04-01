@@ -3,4 +3,8 @@ class Env {
   /// can be *dev, test or prod
   static const String servermode =
       String.fromEnvironment('build', defaultValue: 'dev');
+
+  static const String apiKey = String.fromEnvironment(
+    'apiKey',
+  );
 }

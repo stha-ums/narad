@@ -8,7 +8,7 @@ import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:http/http.dart' as http;
 import 'package:logging/logging.dart';
 import 'package:mime/mime.dart';
-import 'package:starter/core/errors/exceptions/exceptions.dart';
+import 'package:narad/core/errors/exceptions/exceptions.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../../config/service_locator/service_locator.dart';
@@ -34,11 +34,12 @@ class HttpCalls {
   /// this will return map or list after json decode
   /// if there is an error in authentication or Internet or error messsage
   /// in api response or any other error throws exception [ServerException]
-  Future<dynamic> call(
-      {required String url,
-      required ApiCallMethod method,
-      dynamic body,
-      bool guarded = false}) async {
+  Future<dynamic> call({
+    required String url,
+    required ApiCallMethod method,
+    dynamic body,
+    bool guarded = false,
+  }) async {
     try {
       _logger.info("accessing $url");
 

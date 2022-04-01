@@ -1,7 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:starter/core/utils/string_extenstions.dart';
+import 'package:narad/core/utils/string_extenstions.dart';
 
 import '../bloc/theme_manager_bloc.dart';
 
@@ -19,7 +19,10 @@ class ChangeThemeTristateSwitch extends StatelessWidget {
         BlocBuilder<ThemeManagerBloc, ThemeMode?>(
           builder: (context, state) {
             return Container(
-              color: Colors.blueGrey,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(10),
+                color: Colors.blueGrey,
+              ),
               child: ClipRRect(
                 borderRadius: BorderRadius.circular(10),
                 child: Row(

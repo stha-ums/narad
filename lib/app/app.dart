@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:starter/config/localization/app_localization.dart';
-import 'package:starter/config/service_locator/service_locator.dart';
-import 'package:starter/core/theme/data/dark_theme_data.dart';
-import 'package:starter/core/theme/data/light_theme_data.dart';
+import 'package:narad/config/localization/app_localization.dart';
+import 'package:narad/config/service_locator/service_locator.dart';
+import 'package:narad/core/theme/data/dark_theme_data.dart';
+import 'package:narad/core/theme/data/light_theme_data.dart';
 
-import '../config/routes/auto_routes/auto_routes.gr.dart';
+import '../config/routes/auto_routes/routes.gr.dart';
 import '../core/localization_manager/bloc/localization_manager_bloc.dart';
 import '../core/theme/bloc/theme_manager_bloc.dart';
 
@@ -19,24 +19,17 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return MultiBlocProvider(
       providers: [
-        BlocProvider(create: (context) => sl<ThemeManagerBloc>()),
-        BlocProvider(create: (context) => sl<LocalizationManagerBloc>()),
+        BlocProvider(create: (context) => sl<ThemeManagerBloc>()..add(Init())),
+        BlocProvider(
+            create: (context) =>
+                sl<LocalizationManagerBloc>()..add(InitializeLocale())),
       ],
       child: Builder(builder: (context) {
         return BlocBuilder<ThemeManagerBloc, ThemeMode?>(
           builder: (context, themeState) {
-            if (themeState == null) {
-              BlocProvider.of<ThemeManagerBloc>(context).add(Init());
-            }
-
             return BlocBuilder<LocalizationManagerBloc,
                 LocalizationManagerState>(
               builder: (context, localeState) {
-                if (localeState.initialized == false) {
-                  BlocProvider.of<LocalizationManagerBloc>(context)
-                      .add(InitializeLocale());
-                }
-
                 return MaterialApp.router(
                   localizationsDelegates: const [
                     AppLocalizations.delegate,

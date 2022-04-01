@@ -1,4 +1,4 @@
-name: starter
+name: narad
 description: A news app.
 
 publish_to: "none"
@@ -12,6 +12,7 @@ dependencies:
   auto_route: ^3.2.4
   cupertino_icons: ^1.0.2
   equatable: ^2.0.3
+  fluentui_system_icons: ^1.1.163
   flutter:
     sdk: flutter
   flutter_bloc: ^8.0.1
@@ -22,8 +23,14 @@ dependencies:
   freezed_annotation: ^1.1.0
   get_it: ^7.2.0
   google_fonts: ^2.3.1
+  hive: ^2.1.0
   intl: ^0.17.0
+  json_annotation: ^4.4.0
+  path: ^1.8.0
+  path_provider: ^2.0.9
   shared_preferences: ^2.0.13
+  timeago: ^3.2.2
+  webview_flutter: ^3.0.1
   url_strategy: ^0.2.0
 
 dev_dependencies:
