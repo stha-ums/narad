@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.14)
-project(narad LANGUAGES CXX)
+project(starter LANGUAGES CXX)
 
-set(BINARY_NAME "narad")
+set(BINARY_NAME "starter")
 
 cmake_policy(SET CMP0063 NEW)
 

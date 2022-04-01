@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:narad/config/localization/app_localization.dart';
-import 'package:narad/config/service_locator/service_locator.dart';
-import 'package:narad/core/theme/data/dark_theme_data.dart';
-import 'package:narad/core/theme/data/light_theme_data.dart';
+import 'package:starter/config/localization/app_localization.dart';
+import 'package:starter/config/service_locator/service_locator.dart';
+import 'package:starter/core/theme/data/dark_theme_data.dart';
+import 'package:starter/core/theme/data/light_theme_data.dart';
 
 import '../config/routes/auto_routes/auto_routes.gr.dart';
 import '../core/localization_manager/bloc/localization_manager_bloc.dart';

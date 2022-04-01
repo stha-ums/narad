@@ -8,7 +8,7 @@ import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:http/http.dart' as http;
 import 'package:logging/logging.dart';
 import 'package:mime/mime.dart';
-import 'package:narad/core/errors/exceptions/exceptions.dart';
+import 'package:starter/core/errors/exceptions/exceptions.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../../config/service_locator/service_locator.dart';

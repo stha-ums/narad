@@ -1,4 +1,4 @@
-package com.example.narad
+package com.example.starter
 
 import io.flutter.embedding.android.FlutterActivity
 

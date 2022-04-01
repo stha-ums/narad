@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:narad/config/logger/logger.dart';
-import 'package:narad/config/service_locator/service_locator.dart';
+import 'package:starter/config/logger/logger.dart';
+import 'package:starter/config/service_locator/service_locator.dart';
 import 'package:url_strategy/url_strategy.dart';
 
 import 'app/app.dart';

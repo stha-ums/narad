@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:narad/config/constants/colors/colors.dart';
+import 'package:starter/config/constants/colors/colors.dart';
 
 class DarkTheme {
   ThemeData call() {
