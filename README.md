@@ -3,10 +3,10 @@
 A showcase news app with flutter and best practises I learned along the way. Of course this is not the perfect example of creating flutter app. so you are welcome to suggeset the better way to do things.
 
 ### Features in the app
-- [x] Localization usinf flutter_localization
+- [x] Localization using flutter_localization
 - [x] Dynamic Theme
 - [x] Caching the api response
-- [x] Save Favorite Article
+- [x] Save Favorite Article Locally
 - [x] Clean Code Architecture
 
 
