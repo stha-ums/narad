@@ -23,7 +23,7 @@ class DashBoard extends StatelessWidget {
                   BlocProvider.of<NewsBloc>(context)
                       .add(const NewsEvent.fetch());
                 },
-                child: ListView(children: [
+                child: ListView(padding: const EdgeInsets.all(16), children: [
                   ...loaded.news.map((e) => ArticleCard(article: e))
                 ]),
               ),

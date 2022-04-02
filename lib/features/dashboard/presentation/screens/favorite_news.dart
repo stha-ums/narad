@@ -41,7 +41,7 @@ class FavoriteNews extends StatelessWidget {
               );
             }
             return Scaffold(
-              body: ListView(children: [
+              body: ListView(padding: const EdgeInsets.all(16), children: [
                 ...loaded.articles.map((e) => ArticleCard(article: e))
               ]),
             );
