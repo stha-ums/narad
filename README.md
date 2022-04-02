@@ -42,7 +42,7 @@ flutter build ipa #for iOS
 <img src="./screenshots/folder_structure.png" alt="drawing" style="width:300px;"/>
 
 
-This app showcase followinf packages use in production app:
+This app showcases following packages use in production app:
 
 - [x] AutoRoute
 - [x] cached_network_image
