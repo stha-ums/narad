@@ -37,3 +37,6 @@ flutter build ipa #for iOS
 ### Visual Demo
 
 <img src="./screenshots/demo.png" alt="drawing" style="width:300px;"/>
+
+### Folder Structure
+<img src="./screenshots/folder_structure.png" alt="drawing" style="width:300px;"/>
