@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:narad/config/localization/app_localization.dart';
+import 'package:narad/config/routes/routes.gr.dart';
 import 'package:narad/config/service_locator/service_locator.dart';
 import 'package:narad/core/theme/data/dark_theme_data.dart';
 import 'package:narad/core/theme/data/light_theme_data.dart';
 
-import '../config/routes/auto_routes/routes.gr.dart';
 import '../core/localization_manager/bloc/localization_manager_bloc.dart';
 import '../core/theme/bloc/theme_manager_bloc.dart';
 

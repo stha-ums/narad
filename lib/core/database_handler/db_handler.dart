@@ -4,11 +4,11 @@ import 'db_object.dart';
 class DataBaseHandler {
   // sqlite or any other db manager
   final DbDriver _driver;
-  DataBaseHandler._(DbDriver driver) : _driver = driver;
+  DataBaseHandler._init(DbDriver driver) : _driver = driver;
 
   static Future<DataBaseHandler> getAnInstance(
       {required DbDriver driver}) async {
-    final handler = DataBaseHandler._(driver);
+    final handler = DataBaseHandler._init(driver);
     await handler._driver.initializeDataBase();
     return handler;
   }

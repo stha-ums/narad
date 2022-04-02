@@ -1,5 +1,7 @@
+import 'package:fluentui_system_icons/fluentui_system_icons.dart';
 import 'package:flutter/material.dart';
 import 'package:narad/features/dashboard/domain/entities/articles.dart';
+import 'package:share_plus/share_plus.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
 class ArticleScreen extends StatelessWidget {
@@ -9,7 +11,17 @@ class ArticleScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        actions: [
+          IconButton(
+              onPressed: () {
+                if (article.url != null) {
+                  Share.share(article.url!);
+                }
+              },
+              icon: const Icon(FluentIcons.share_20_regular))
+        ],
+      ),
       body: Hero(
         tag: article.title ?? '',
         child: WebView(

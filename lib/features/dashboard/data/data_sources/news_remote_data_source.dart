@@ -25,7 +25,6 @@ class NewRemoteDataSourceImpl extends NewsRemoteDataSource {
     final String toDate = DateFormat('yyyy-MM-dd').format(to ?? DateTime.now());
     String fullUrl =
         'https://newsapi.org/v2/everything?q=$keyword&to=$toDate&from=$fromDate&sortBy=publishedAt&apiKey=${Env.apiKey}';
-    print(fullUrl);
     final newsResponse =
         await httpCalls(url: fullUrl, method: ApiCallMethod.get);
 

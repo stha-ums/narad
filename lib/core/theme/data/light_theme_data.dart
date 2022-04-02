@@ -6,7 +6,7 @@ class LightTheme {
     return ThemeData.light().copyWith(
       primaryColor: AppColors.primaryColor,
       scaffoldBackgroundColor: AppColors.scaffoldColorLight,
-      colorScheme: const ColorScheme.dark(
+      colorScheme: const ColorScheme.light(
         primary: AppColors.primaryColor,
         secondary: AppColors.secondaryColor,
       ),

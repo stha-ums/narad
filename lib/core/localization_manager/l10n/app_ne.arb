@@ -1,4 +1,17 @@
 {
-    "helloWorld": "नमस्कार hello!",
-    "changeLanguage": "भासा परिवर्तन हर्नुहोस्!"
+  "narad": "नारद",
+  "changeLanguage": "भासा परिवर्तन हर्नुहोस्",
+  "changeTheme": "थेम परिवर्तन गर्नुहोस",
+  "clearCache": "क्यास खाली गर्नुहोस",
+  "clearFavoriteArticles": "मनपरेको लेख खाली गर्नुहोस",
+  "clear": "हटाउ",
+  "system": "सिस्टम",
+  "light": "लाईट",
+  "dark": "डार्क",
+  "settings": "सेट्टिङ्स",
+  "news": "समाचार",
+  "favorite": "मनपरेको",
+  "nepali": "नेपाली",
+  "english": "अंग्रेजी",
+  "nofavArticle": "मनपरेको लेख खाली  छ \nफेवोरेट गरेर हेर्नुहोस"
 }

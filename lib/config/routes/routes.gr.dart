@@ -13,12 +13,11 @@
 import 'package:auto_route/auto_route.dart' as _i5;
 import 'package:flutter/material.dart' as _i6;
 
-import '../../../features/dashboard/domain/entities/articles.dart' as _i7;
-import '../../../features/dashboard/presentation/screens/app_entry.dart' as _i1;
-import '../../../features/dashboard/presentation/screens/article_view.dart'
-    as _i2;
-import '../../../features/dashboard/presentation/screens/dashboard.dart' as _i3;
-import '../../../features/dashboard/presentation/screens/favorite_news.dart'
+import '../../features/dashboard/domain/entities/articles.dart' as _i7;
+import '../../features/dashboard/presentation/screens/app_entry.dart' as _i1;
+import '../../features/dashboard/presentation/screens/article_view.dart' as _i2;
+import '../../features/dashboard/presentation/screens/dashboard.dart' as _i3;
+import '../../features/dashboard/presentation/screens/favorite_news.dart'
     as _i4;
 
 class AppRouter extends _i5.RootStackRouter {

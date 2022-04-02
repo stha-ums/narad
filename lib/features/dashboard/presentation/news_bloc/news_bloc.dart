@@ -30,8 +30,8 @@ class NewsBloc extends Bloc<NewsEvent, NewsState> {
       emit(NewsState.error(message: e.message));
     } on CacheException catch (e) {
       emit(NewsState.error(message: e.message));
-    } catch (e) {
-      _logger.info(e);
+    } catch (e, s) {
+      _logger.info(e, e, s);
       emit(const NewsState.error(message: 'Unknown Error'));
     }
   }

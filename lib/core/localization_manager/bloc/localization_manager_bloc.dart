@@ -35,7 +35,7 @@ class LocalizationManagerBloc
       if (locale != null) {
         return Locale(locale);
       }
-      return null;
+      return const Locale('en');
     } catch (e) {
       _logger.warning("Could not get saved locale");
       return null;

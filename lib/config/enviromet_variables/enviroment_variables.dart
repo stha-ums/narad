@@ -4,7 +4,6 @@ class Env {
   static const String servermode =
       String.fromEnvironment('build', defaultValue: 'dev');
 
-  static const String apiKey = String.fromEnvironment(
-    'apiKey',
-  );
+  static const String apiKey = String.fromEnvironment('apiKey',
+      defaultValue: '08e7fca767ba444e93de66b948606021');
 }

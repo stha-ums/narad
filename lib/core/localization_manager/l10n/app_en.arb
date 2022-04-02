@@ -1,8 +1,20 @@
 
 {
-  "helloWorld": "Hello World!",
+  "narad":"narad",
   "changeLanguage": "Change Language",
-  "@helloWorld": {
-    "description": "The conventional newborn programmer greeting"
-  }
+  "changeTheme" : "Change Theme",
+  "clearCache":"Clear Cache",
+  "clearFavoriteArticles": "Clear Favorite Articles",
+  "clear":"Clear",
+  "system":"System",
+  "light":"Light",
+  "dark":"Dark",
+  "settings":"Settings",
+  "news": "news",
+  "favorite": "favorite",
+  "nepali": "Nepali",
+  "english": "English",
+  "nofavArticle":
+  "No Articles Found\nTry setting the articles as favorite first."
+
 }
