@@ -1,6 +1,6 @@
 
 {
-  "narad":"narad",
+  "narad":"NARAD",
   "changeLanguage": "Change Language",
   "changeTheme" : "Change Theme",
   "clearCache":"Clear Cache",
@@ -10,8 +10,8 @@
   "light":"Light",
   "dark":"Dark",
   "settings":"Settings",
-  "news": "news",
-  "favorite": "favorite",
+  "news": "News",
+  "favorite": "Favorite",
   "nepali": "Nepali",
   "english": "English",
   "nofavArticle":

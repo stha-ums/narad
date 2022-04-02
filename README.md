@@ -1,16 +1,39 @@
-# narad
+# Narad - News App Representing All Dimensions
 
-A new Flutter project.
+A showcase news app with flutter and best practises I learned along the way. Of course this is not the perfect example of creating flutter app. so you are welcome to suggeset the better way to do things.
 
-## Getting Started
+### Features in the app
+- [x] Localization usinf flutter_localization
+- [x] Dynamic Theme
+- [x] Caching the api response
+- [x] Save Favorite Article
+- [x] Clean Code Architecture
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+### Build with Flutter for:
+- [x] Android 
+- [x] iOS 
+- [x] MacOS
+- [x] Windows
+- [x] Web
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### How to build & run: 
+
+```bash
+flutter pub get && flutter pub run build_runner build --delete-conflicting-outputs #fetch the packages and run build_runner to generate necessary files [localization, routing ]
+```
+```bash 
+flutter run -d device-name #run on specific device
+```
+```bash 
+flutter build apk #for android
+```
+
+```bash
+flutter build ipa #for iOS
+```
+
+### Visual Demo
+
+<img src="./screenshots/demo.png" alt="drawing" style="width:300px;"/>
