@@ -40,3 +40,21 @@ flutter build ipa #for iOS
 
 ### Folder Structure
 <img src="./screenshots/folder_structure.png" alt="drawing" style="width:300px;"/>
+
+
+This app showcase followinf packages use in production app:
+
+- [x] AutoRoute
+- [x] cached_network_image
+- [x] connectivity_plus
+- [x]  flutter_bloc
+- [x] flutter_localizations
+- [x] get_it
+- [x] google_fonts
+- [x] hive
+- [x] intl
+- [x] path_provider
+- [x] share_plus
+- [x] shared_preferences
+- [x] timeago
+- [x] webview_flutter
