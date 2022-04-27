@@ -10,14 +10,6 @@ A showcase news app with flutter and best practises I learned along the way. Of 
 - [x] Clean Code Architecture
 
 
-### Build with Flutter for:
-- [x] Android 
-- [x] iOS 
-- [x] MacOS
-- [x] Windows
-- [x] Web
-
-
 ### How to build & run: 
 
 ```bash
